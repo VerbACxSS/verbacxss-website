@@ -23,6 +23,7 @@ RUN if [ "$BUILD_VERSION" = "production" ]; \
     then npm run build-local; \
     fi
 
+# Run the postbuild script
 RUN npm run postbuild
 
 

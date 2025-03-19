@@ -30,6 +30,8 @@ docker compose up --build -d
 ## Usage
 The web application will be running at `http://localhost:8080`.
 
+![demo-1](screenshots/1.png)
+
 ## Built With
 * [Angular](https://angular.io/)
 * [Design Angular Kit](https://github.com/italia/design-angular-kit/)
