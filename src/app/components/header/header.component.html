@@ -1,0 +1,42 @@
+<it-header #header slimTitle="PRIN 2020" [light]="false" [showSearch]="false" [sticky]="false">
+  <ng-container brand>
+    <a routerLink="/home">
+      <img class="logo p-2 p-md-1 me-2" ngSrc="./assets/logo.svg" title="verbacxss-logo" alt="verbacxss-logo" height="100" width="100" priority/>
+      <div class="it-brand-text">
+        <div class="it-brand-title">VerbACxSS</div>
+        <div class="it-brand-tagline d-none d-md-block">verbi analitici, complessità, verbi sintetici, e semplificazione. Per l'accessibilità.</div>
+      </div>
+    </a>
+  </ng-container>
+  <div rightZone>
+    <a href="https://prin.mur.gov.it" title="mur" target="_blank" rel="external">
+      <img class="logo p-2 p-md-1 me-2" ngSrc="./assets/logo-mur.svg" title="mur-logo" alt="mur-logo" height="100" width="100" priority/>
+    </a>
+  </div>
+  <ng-container navItems>
+    @for (item of MENU_ITEMS; track $index) {
+      <it-navbar-item>
+        @if (item.path) {
+          <a [class]="this.router.url.includes(item.path)? 'nav-link active' : 'nav-link'" [routerLink]="item.path" (click)="closeHeader()">
+            <span>{{item.name}}</span>
+          </a>
+        } @else {
+          <it-dropdown mode="nav">
+            <span button>{{item.name}}</span>
+            <ng-container list>
+              @for (child of item.children; track $index) {
+                <it-dropdown-item>
+                  @if (child.path.startsWith('http')) {
+                    <a [href]="child.path" target="_blank" (click)="closeHeader()">{{child.name}}</a>
+                  } @else {
+                    <a [routerLink]="child.path" (click)="closeHeader()">{{child.name}}</a>
+                  }
+                </it-dropdown-item>
+              }
+            </ng-container>
+          </it-dropdown>
+        }
+      </it-navbar-item>
+    }
+  </ng-container>
+</it-header>

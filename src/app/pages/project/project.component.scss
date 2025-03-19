@@ -1,0 +1,20 @@
+.research-unit-logo {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+@media screen and (min-width: 576px) {
+  .research-unit-logo {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .research-unit-logo {
+    max-width: 25%;
+    height: auto;
+  }
+}
+

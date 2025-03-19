@@ -1,0 +1,13 @@
+.it-hero-wrapper {
+  min-height: 150px !important;
+}
+
+.it-hero-wrapper .img-wrapper img {
+  object-position: 0 30%;
+}
+
+@media (min-width: 992px) {
+  .it-hero-wrapper .img-wrapper img {
+    object-position: 0 35%;
+  }
+}

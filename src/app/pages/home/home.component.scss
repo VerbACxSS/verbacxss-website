@@ -1,0 +1,28 @@
+.it-hero-wrapper.it-bottom-overlapping-content .it-hero-text-wrapper {
+  padding-top: 136px;
+}
+
+@media (min-width: 992px) {
+  .it-hero-wrapper.it-bottom-overlapping-content .it-hero-text-wrapper {
+    padding-bottom: 160px;
+    padding-top: 160px;
+  }
+}
+
+@media (min-width: 992px) {
+  .it-hero-wrapper .img-wrapper img {
+    object-position: 0 35%;
+  }
+}
+
+it-card[hasImage="true"] {
+  cursor: pointer;
+}
+
+.card-wrapper .img-responsive-wrapper {
+  padding: 2em;
+
+  .img-responsive {
+    padding-bottom: 100%;
+  }
+}

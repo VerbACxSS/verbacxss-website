@@ -1,0 +1,18 @@
+[
+  {
+    "title": "ItaIst corpus",
+    "authors": "Giuliana Fiorentino, Vittorio Ganfi, Rocco Oliveto, Marco Russodivito, Alessandro Cioffi, Maria Ausilia Simonelli, Ludovico Di Benedetto",
+    "year": "2024",
+    "externalLink": "https://huggingface.co/datasets/VerbACxSS/ItaIst"
+  },
+  {
+    "title": "ItaIst-DdAC_GRU",
+    "authors": "Daniela Vellutino, Nicola Cirillo",
+    "year": "in stampa"
+  },
+  {
+    "title": "RLT ItaIst-DdAC_GRU",
+    "authors": "Nicola Cirillo, Daniela Vellutino, David Nicoletti, Enzagiulia Sabarese, Benedetta Rubino",
+    "year": "in stampa"
+  }
+]

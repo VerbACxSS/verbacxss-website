@@ -1,0 +1,13 @@
+services:
+  verbacxss-frontend:
+    container_name: "verbacxss-frontend"
+    image: "verbacxss-frontend"
+    build:
+      context: "."
+      args:
+        BUILD_VERSION: ${BUILD_VERSION:-local}
+    restart: "unless-stopped"
+    ports:
+      - "20000:8080"
+    healthcheck:
+      test: [ "CMD", "nginx", "-t" ]

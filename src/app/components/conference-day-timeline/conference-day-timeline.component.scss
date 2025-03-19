@@ -1,0 +1,41 @@
+.card-wrapper {
+  border-bottom: 1px solid black;
+}
+
+.card-wrapper:last-child {
+  border-bottom: none;
+}
+
+.it-timeline-wrapper .it-pin-wrapper .pin-text {
+  max-width: 80%;
+}
+
+.it-timeline-wrapper .col-12 {
+  min-height: 4em;
+}
+
+@media screen and (max-width: 991px) {
+  .it-timeline-wrapper .col-12 {
+    .timeline-element {
+      position: static;
+      padding: 18px 0 18px 6px;
+
+      .it-pin-wrapper {
+        position: static;
+
+        .pin-icon {
+          position: relative;
+          z-index: 10;
+        }
+      }
+    }
+
+    .card-wrapper {
+      margin-left: 34px;
+    }
+
+    .card-wrapper:last-child {
+      padding-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<div class="row justify-content-center mb-4 gy-3">
+  @for (person of people; track $index) {
+    <div [class]="evalPeopleColumnClass()">
+      <div class="d-flex flex-column align-items-center">
+        <div itAvatar color="primary" size="xxl">
+          <img [ngSrc]="person.imageSrc" [title]="person.name" [alt]="person.name" width="128" height="128">
+        </div>
+        <h3 class="h5 text-center mt-4 mb-0">{{ person.name }}</h3>
+        @if (person.subtitle) {
+          <p class="text-center mb-0">{{ person.subtitle }}</p>
+        }
+        @if (person.email) {
+          <a class="text-center" [href]="'mailto:' + person.email" target="_blank">{{ person.email }}</a>
+        }
+      </div>
+    </div>
+  }
+</div>

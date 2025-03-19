@@ -1,0 +1,23 @@
+<app-page-title title="Mappa del sito"></app-page-title>
+
+<section class="section" aria-describedby="text-simplifier-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="link-list-wrapper">
+            <ul class="link-list">
+              @for (menuItem of SITEMAP; track $index) {
+                <li>
+                  <a class="list-item large medium" [routerLink]="menuItem.path">
+                    <span class="list-item-title">{{ menuItem.name }}</span>
+                  </a>
+                </li>
+              }
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

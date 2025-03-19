@@ -1,0 +1,53 @@
+<footer class="it-footer">
+  <div class="it-footer-main">
+    <div class="container">
+      <section>
+        <div class="row clearfix">
+          <div class="col-sm-12">
+            <div class="it-brand-wrapper">
+              <a routerLink="/home" data-focus-mouse="false">
+                <img class="logo me-2" ngSrc="./assets/logo.svg" title="verbacxss-logo" alt="verbacxss-logo" height="100" width="100" priority/>
+                <div class="it-brand-text">
+                  <h2 class="h2 mb-0 sm-mb-4 ">VerbACxSS</h2>
+                  <h3 class="h4 d-none d-sm-block">verba analitici, complessità, verbi sintetici, e semplificazione. Per l'accessibilità.</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-4 border-white border-top">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 pb-2">
+            <h4 class="text-uppercase h6">Dettagli bando</h4>
+            <p class="m-0"><strong>Codice</strong>: 2020BJKB9M</p>
+            <p class="m-0"><strong>Area/Settore</strong>: SH4</p>
+            <p class="m-0"><strong>Finanziamento assegnato</strong>: 657,175.00 €</p>
+            <p class="m-0"><strong>Ente</strong>: Università degli Studi ROMA TRE</p>
+            <p class="m-0"><strong>Coordinatore/PI</strong>: POMPEI Anna</p>
+            <p class="m-0"><strong>Durata in mesi</strong>: 36</p>
+          </div>
+        </div>
+      </section>
+      <section class="py-4 border-white border-top">
+        <div class="row justify-content-center">
+          @for (menuItem of MENU_ITEMS; track $index) {
+            <div class="col-12 col-md-4 col-lg-2 p-2 p-lg-0">
+              <h4 class="h6 text-center mb-0" [ngClass]="router.url.includes(menuItem.path)? 'text-decoration-underline' : ''">
+                <a [href]="menuItem.path" title="Vai alla pagina: {{menuItem.name}}">{{menuItem.name | uppercase}}</a>
+              </h4>
+            </div>
+          }
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="it-footer-small-prints clearfix">
+    <div class="container">
+      <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
+        <li class="list-inline-item text-center m-0 text-md-start"><a routerLink="/privacy-policy" title="Privacy-Cookies">Privacy policy</a></li>
+        <li class="list-inline-item text-center m-0 text-md-start"><a routerLink="/sitemap" title="Mappa del sito">Mappa del sito</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>

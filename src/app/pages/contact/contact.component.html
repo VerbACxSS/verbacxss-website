@@ -1,0 +1,44 @@
+<app-page-title title="Contatti"></app-page-title>
+
+<section class="section" aria-describedby="uniroma3-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h2 class="h3 text-center mb-4" id="uniroma3-title">Università degli Studi ROMA TRE</h2>
+        </div>
+      </div>
+
+      <app-people [people]="UNI_ROMA_3_CONTACTS" [maxCols]="3"></app-people>
+    </div>
+  </div>
+</section>
+
+<section class="section section-muted" aria-describedby="unimol-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h2 class="h3 text-center mb-4" id="unimol-title">Università degli Studi del Molise</h2>
+        </div>
+      </div>
+
+      <app-people [people]="UNIMOL_CONTACTS" [maxCols]="3"></app-people>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" aria-describedby="unisa-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h2 class="h3 text-center mb-4" id="unisa-title">Università degli Studi di SALERNO</h2>
+        </div>
+      </div>
+
+      <app-people [people]="UNISA_CONTACTS" [maxCols]="3"></app-people>
+    </div>
+  </div>
+</section>

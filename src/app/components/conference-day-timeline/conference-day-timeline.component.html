@@ -1,0 +1,36 @@
+<div class="it-timeline-wrapper">
+  <div class="row">
+    @for (session of sessions; track $index) {
+      <div class="col-12">
+        <div class="timeline-element">
+          <div class="it-pin-wrapper" [ngClass]="session.icon == 'warning-circle'? 'it-evidence' : 'it-now'">
+            <div class="pin-icon">
+              <it-icon [name]="getIcon(session.icon)"></it-icon>
+            </div>
+            <div class="pin-text"><span>{{ session.title }}</span></div>
+          </div>
+          @for (speech of session.speeches; track $index) {
+            <div class="card-wrapper">
+              <it-card>
+                @if (speech.hour) {
+                  <div class="category-top">
+                    <span class="data">{{ speech.hour }}</span>
+                  </div>
+                }
+                <h3 class="h3 card-title h5">{{ speech.title }}</h3>
+                @if (speech.authors) {
+                  <span class="card-signature">{{ speech.authors }}</span>
+                }
+                @if (speech.abstractParagraphs) {
+                  <div>
+                    <it-icon [name]="'info-circle'" class="icon-info" (click)="this.onInfoClick.emit(speech)"></it-icon>
+                  </div>
+                }
+              </it-card>
+            </div>
+          }
+        </div>
+      </div>
+    }
+  </div>
+</div>

@@ -1,0 +1,89 @@
+[
+  {
+    "title": "AI vs. Human: Effectiveness of LLMs in Simplifying Italian Administrative Documents",
+    "authors": "Marco Russodivito, Vittorio Ganfi, Giuliana Fiorentino, Rocco Oliveto",
+    "year": "2024",
+    "publisher": "Felice Dell'Orletta, Alessandro Lenci, Simonetta Montemagni, Rachele Sprugnoli (eds.)",
+    "journal": "Proceedings of the Tenth Italian Conference on Computational Linguistics (CLiC-it 2024)",
+    "subtype": "contributo in volume",
+    "externalLink": "https://clic2024.ilc.cnr.it/wp-content/uploads/2024/12/91_main_long.pdf"
+  },
+  {
+    "title": "Corpus «itaist»: Note per lo sviluppo di una risorsa linguistica per lo studio dell'italiano istituzionale per il diritto di accesso civico",
+    "authors": "Nicola Cirillo, Daniela Vellutino",
+    "year": "2024",
+    "journal": "Italiano LinguaDue 16",
+    "subtype": "articolo in rivista",
+    "externalLink": "https://riviste.unimi.it/index.php/promoitals/article/view/23836"
+  },
+  {
+    "title": "A diachronic perspective on competition in denominal verb formation in Italian",
+    "authors": "Claudio Iacobini",
+    "year": "2024",
+    "publisher": "Alexandra Bagasheva, Akiko Nagano & Vincent Renner (eds.)",
+    "journal": "Competition in word-formation",
+    "editor": "Amsterdam / Philadelphia: John Benjamins",
+    "subtype": "contributo in volume"
+  },
+  {
+    "title": "L'educazione alla riscrittura: un esperimento didattico su un messaggio INPS",
+    "authors": "Maria Silvia Rati",
+    "year": "2023",
+    "publisher": "Davide Mastrantonio, Eugenio Salvatore (a cura di)",
+    "journal": "Forme, strutture e didattica dell'italiano. Studi per i 60 anni di Massimo Palermo",
+    "editor": "Edizioni Unistrasi, Siena",
+    "subtype": "contributo in volume",
+    "externalLink": "https://edizioni.unistrasi.it/1277/1716/L%E2%80%99educazione_alla_riscrittura_un_esperimento_didattico_su_un_messaggio_INPS_-_p._49.htm"
+  },
+  {
+    "title": "Light Verb Constructions in Italian: A Corpus-based Analysis of 15th-17th-century Texts",
+    "authors": "Vittorio Ganfi",
+    "year": "2023",
+    "journal": "Status Quaestionis 25",
+    "subtype": "articolo in rivista",
+    "externalLink": "https://rosa.uniroma1.it/rosa03/status_quaestionis/article/view/18573/17543"
+  },
+  {
+    "title": "NooJ Linguistic Resources for Paraphrase Generation of Italian Support Verb Construction",
+    "authors": "Nicola Cirillo",
+    "year": "2023",
+    "publisher": "Anita Bartulović, Linda Mijić, Max Silberztein (eds.)",
+    "editor": "Springer, Cham, Svizzera",
+    "journal": "Formalizing Natural Languages: Applications to Natural Language Processing and Digital Humanities (NooJ 2023)",
+    "subtype": "contributo in volume",
+    "externalLink": "https://link.springer.com/chapter/10.1007/978-3-031-56646-2_16"
+  },
+  {
+    "title": "Parametri per semplificare l'italiano istituzionale: revisione della letteratura",
+    "authors": "Giuliana Fiorentino, Vittorio Ganfi ",
+    "year": "2024",
+    "journal": "Italiano LinguaDue 16",
+    "subtype": "articolo in rivista",
+    "externalLink": "https://riviste.unimi.it/index.php/promoitals/article/view/23835"
+  },
+  {
+    "title": "Parlare all'università: un'analisi pragmalinguistica dei colloqui tra docenti e studenti italofoni e internazionali",
+    "authors": "Francesca Pagliara",
+    "year": "2024",
+    "journal": "Italiano LinguaDue 16",
+    "subtype": "articolo in rivista",
+    "externalLink": "https://riviste.unimi.it/index.php/promoitals/article/view/23829"
+  },
+  {
+    "title": "Speculazioni sulla complessità linguistica in un quadro tipologico",
+    "authors": "Giuliana Fiorentino, Vittorio Ganfi",
+    "year": "2024",
+    "journal": "Studi italiani di linguistica teorica e applicata (SILTA), 53",
+    "subtype": "articolo in rivista"
+  },
+  {
+    "title": "Term Variation in Institutional Languages: Degrees of Specialization in Municipal Waste Management Terminology",
+    "authors": "Nicola Cirillo, Daniela Vellutino",
+    "year": "2024",
+    "publisher": "Giorgio Maria Di Nunzio, Federica Vezzani, Liana Ermakova, Hosein Azarbonyad, Jaap Kamps (eds.)",
+    "journal": "Proceedings of the Workshop on DeTermIt! Evaluating Text Difficulty in a Multilingual Context@ LREC-COLING 2024",
+    "editor": "ELRA and ICCL, Parigi, Francia",
+    "subtype": "contributo in volume",
+    "externalLink": "https://aclanthology.org/2024.determit-1.13.pdf"
+  }
+]

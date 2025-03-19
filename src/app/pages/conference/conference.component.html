@@ -1,0 +1,134 @@
+<app-page-title title="Convegno"></app-page-title>
+
+<section class="section" aria-describedby="conference-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h2 class="h3 text-center mb-4" id="conference-title">Amministrazione attiva: semplicità e chiarezza per la comunicazione amministrativa</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center gy-2 mb-4">
+        <div class="col-12 col-sm-6 col-md-4 text-center">
+          <button itButton="outline-primary" (click)="downloadSchedule()">Scarica il programma</button>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-center">
+          <button itButton="outline-primary" (click)="downloadPoster()">Scarica la locandina</button>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-center">
+          <button itButton="outline-primary" (click)="downloadAbstractBooklet()">Scarica il libretto degi abstract</button>
+        </div>
+      </div>
+
+      <div class="row justify-content-center gy-2 mb-4">
+        <div class="col-12 col-sm-6 col-md-4 text-center">
+          <button itButton="outline-secondary" (click)="downloadPracticalInfo()">Informazioni pratiche</button>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-center">
+          <button itButton="outline-secondary" (click)="openTouristInformationLink()">Informazioni turistiche</button>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-center">
+          <button itButton="outline-secondary" (click)="downloadLogisticInformation()">Informazioni logistiche</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-muted" aria-describedby="thursday-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="h5 mb-4 text-center" id="thursday-title">GIOVEDÌ 23 maggio - pomeriggio</h2>
+        </div>
+      </div>
+
+      <app-conference-day-timeline [sessions]="conferencePlan.thursdaySessions"
+                                   (onInfoClick)="openAbstractModal($event)"></app-conference-day-timeline>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-describedby="friday-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="h5 mb-4 text-center" id="friday-title">Venerdì 24 maggio</h2>
+        </div>
+      </div>
+
+      <app-conference-day-timeline [sessions]="conferencePlan.fridaySessions"
+                                   (onInfoClick)="openAbstractModal($event)"></app-conference-day-timeline>
+    </div>
+  </div>
+</section>
+
+<section class="section section-muted" aria-describedby="saturday-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="h5 mb-4 text-center" id="saturday-title">SABATO 25 maggio - mattina</h2>
+        </div>
+      </div>
+
+      <app-conference-day-timeline [sessions]="conferencePlan.saturdaySessions"
+                                   (onInfoClick)="openAbstractModal($event)"></app-conference-day-timeline>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-describedby="local-committee-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h2 class="h3 text-center mb-4" id="roma-tre-title">Comitato organizzatore locale</h2>
+        </div>
+      </div>
+
+      <app-people [people]="conferencePlan.localCommitteeMembers" [maxCols]="4"></app-people>
+    </div>
+  </div>
+</section>
+
+<section class="section section-muted" aria-describedby="scientific-committee-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h2 class="h3 text-center mb-4" id="scientific-committee-title">Comitato scientifico</h2>
+        </div>
+      </div>
+
+      <app-people [people]="conferencePlan.scientificCommitteeMembers" [maxCols]="4"></app-people>
+    </div>
+  </div>
+</section>
+
+<it-modal #abstractModal="itModal" scrollable="true" footerShadow="true" closeButton="false">
+  <ng-container modalTitle>{{ abstractTitle }}</ng-container>
+  <ng-container description><span class="fst-italic">{{ abstractAuthors }}</span></ng-container>
+
+  <h6 class="h6 mt-4 mb-0">Abstract</h6>
+  @for (paragraph of abstractParagraphs; track $index) {
+    <p class="text-justify mb-2" [innerHtml]="paragraph"></p>
+  }
+  @if (abstractBibliography) {
+    <h6 class="h6 mt-4 mb-0">Bibliografia</h6>
+    @for (bibliography of abstractBibliography; track $index) {
+      <p class="text-justify mb-2" [innerHtml]="bibliography"></p>
+    }
+  }
+
+  <ng-container footer>
+    <button itButton="outline-primary" size="sm" type="button" data-bs-dismiss="modal">Chiudi</button>
+  </ng-container>
+</it-modal>

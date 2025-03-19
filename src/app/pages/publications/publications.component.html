@@ -1,0 +1,61 @@
+<app-page-title title="Pubblicazioni"></app-page-title>
+
+@for (type of TYPES; track $index) {
+  <section [class]="sectionClassByType(type)" aria-describedby="description-title">
+    <div class="section-content">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col">
+            <h2 class="h3 text-center mb-4" id="description-title">{{ type }}</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          @for (item of filterByType(type); track $index) {
+            <div class="col-12 col-md-6 col-lg-4 pb-4">
+              <div class="card-wrapper card-space">
+                <it-card background="true">
+                  <ng-container beforeBody>
+                    <div class="flag-icon"></div>
+                    <div class="etichetta">
+                      @if (item.subtype === 'contributo in volume') {
+                        <it-icon name="pencil"></it-icon>
+                        <span>Contributo in volume</span>
+                      }
+                      @if (item.subtype === 'articolo in rivista') {
+                        <it-icon name="note"></it-icon>
+                        <span>Articolo in rivista</span>
+                      }
+                    </div>
+                  </ng-container>
+                  <h5 class="card-title">{{ item.title }}</h5>
+                  <p class="card-text">
+                    {{ item.authors }}
+                  </p>
+                  @if (item.subtype == "articolo in rivista") {
+                    <p class="card-text">in <em>{{ item.journal }}</em>
+                  }
+                  @if (item.subtype == "contributo in volume") {
+                    <p class="card-text">in <em>{{ item.publisher }} {{item.journal}}. {{item.editor}}</em>
+                  }
+                  <div class="it-card-footer">
+                    @if (item.year) {
+                      <span class="card-signature">{{ item.year }}</span>
+                    }
+                    @if (item.externalLink) {
+                      <a class="read-more" href="{{item.externalLink}}">
+                        <span class="text">Leggi di più</span>
+                        <span class="visually-hidden">su {{ item.title }}</span>
+                        <it-icon name="arrow-right"></it-icon>
+                      </a>
+                    }
+                  </div>
+                </it-card>
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+}
