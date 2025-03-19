@@ -8,6 +8,6 @@ services:
         BUILD_VERSION: ${BUILD_VERSION:-local}
     restart: "unless-stopped"
     ports:
-      - "8080:8080"
+      - "20000:20000"
     healthcheck:
       test: [ "CMD", "nginx", "-t" ]

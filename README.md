@@ -28,8 +28,7 @@ docker compose up --build -d
 ```
 
 ## Usage
-The web application will be running at `http://localhost:8080`.
-
+The web application will be running at `http://localhost:20000`.
 ![demo-1](screenshots/1.png)
 
 ## Built With

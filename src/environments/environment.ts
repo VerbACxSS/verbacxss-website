@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  FRONTEND_URL: 'http://localhost:4200',
+  FRONTEND_URL: 'http://localhost:20000',
 };
 
 /*
