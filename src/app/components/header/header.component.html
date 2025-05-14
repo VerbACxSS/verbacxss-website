@@ -17,7 +17,7 @@
     @for (item of MENU_ITEMS; track $index) {
       <it-navbar-item>
         @if (item.path) {
-          <a [class]="this.router.url.includes(item.path)? 'nav-link active' : 'nav-link'" [routerLink]="item.path" (click)="closeHeader()">
+          <a [class]="this.router.url.includes(item.path)? 'nav-link active' : 'nav-link'" [href]="item.path" (click)="closeHeader()">
             <span>{{item.name}}</span>
           </a>
         } @else {

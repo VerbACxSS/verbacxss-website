@@ -33,7 +33,12 @@ export class ContactComponent implements AfterViewInit {
       subtitle: '(Università per Stranieri "Dante Alighieri")',
       email: 'm.rati@unidarc.it',
       imageSrc: 'assets/people/uniroma3/maria-silvia-rati.jpg'
-    }
+    },
+    {
+      name: 'prof.ssa Monica Palmerini',
+      email: 'monica.palmerini@uniroma3.it',
+      imageSrc: 'assets/people/uniroma3/monica-palmerini.jpg'
+    },
   ]
 
   public readonly UNIMOL_CONTACTS: Array<Person> = [
