@@ -3,13 +3,14 @@ import {HomeComponent} from './pages/home/home.component';
 import {AtsComponent} from './pages/ats/ats.component';
 import {ItErrorPageComponent} from 'design-angular-kit';
 import {ProjectComponent} from './pages/project/project.component';
-import {ConferenceComponent} from './pages/conference/conference.component';
+import {UnimolConferenceComponent} from './pages/conferences/unimol-conference/unimol-conference.component';
 import {TrainingComponent} from './pages/training/training.component';
 import {ContactComponent} from './pages/contact/contact.component';
 import {SitemapComponent} from './pages/sitemap/sitemap.component';
 import {PrivacyPolicyComponent} from './pages/privacy-policy/privacy-policy.component';
 import {PublicationsComponent} from "./pages/publications/publications.component";
 import {SeverasLabComponent} from './pages/severas-lab/severas-lab.component';
+import {RomeConferenceComponent} from './pages/conferences/rome-conference/rome-conference.component';
 
 export const routes: Routes = [
   {
@@ -26,8 +27,17 @@ export const routes: Routes = [
     component: ProjectComponent
   },
   {
-    path: 'conference',
-    component: ConferenceComponent,
+    path: 'conferences',
+    children: [
+      {
+        path: 'unimol-conference-2024',
+        component: UnimolConferenceComponent,
+      },
+      {
+        path: 'uniroma3-conference-2025',
+        component: RomeConferenceComponent,
+      }
+    ]
   },
   {
     path: 'training',

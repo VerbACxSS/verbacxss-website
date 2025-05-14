@@ -29,7 +29,7 @@
                   @if (child.path.startsWith('http')) {
                     <a [href]="child.path" target="_blank" (click)="closeHeader()">{{child.name}}</a>
                   } @else {
-                    <a [routerLink]="child.path" (click)="closeHeader()">{{child.name}}</a>
+                    <a [href]="child.path" (click)="closeHeader()">{{child.name}}</a>
                   }
                 </it-dropdown-item>
               }

@@ -29,11 +29,24 @@ export class HeaderComponent {
   public readonly MENU_ITEMS: Array<any> = [
     {name: 'Home', path: '/home'},
     {name: 'Progetto', path: '/project'},
-    {name: 'Convegno', path: '/conference'},
+    {
+      name: 'Convegni',
+      children: [
+        {
+          name: 'Convegno Unimol 2024',
+          path: 'conferences/unimol-conference-2024',
+        },
+        {
+          name: 'Convegno UniRoma3 2025',
+          path: 'conferences/uniroma3-conference-2025',
+        }
+      ]
+    },
     {name: 'Formazione', path: '/training'},
     {name: 'Pubblicazioni', path: '/publications'},
     {
-      name: 'Risorse', children: [
+      name: 'Risorse',
+      children: [
         {
           name: 'Corpus ItaIst',
           path: 'https://huggingface.co/datasets/VerbACxSS/ItaIst'

@@ -35,11 +35,19 @@ export class SeoService {
         });
         break;
 
-      case '/conference':
-        this.titleService.setTitle('VerbACxSS – Convegno');
+      case '/conferences/unimol-conference-2024':
+        this.titleService.setTitle('VerbACxSS – Convegno Unimol 2024');
         this.metaService.updateTag({
           name: 'description',
           content: 'Il convengo "Amministrazione attiva: semplicità e chiarezza per la comunicazione amministrativa" tratta termi relativi alla semplificazione linguistica delle comunicazioni delle PA.'
+        });
+        break;
+
+      case '/conferences/uniroma3-conference-2025':
+        this.titleService.setTitle('VerbACxSS – Convegno Uniroma3 2025');
+        this.metaService.updateTag({
+          name: 'description',
+          content: 'Nuove proposte e nuove sfide per la semplificazione e l\'accessibilità\n" tratta termi relativi alla semplificazione linguistica delle comunicazioni delle PA.'
         });
         break;
 
