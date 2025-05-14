@@ -1,0 +1,49 @@
+<app-page-title title="Convegno UniRoma 2025"></app-page-title>
+
+<section class="section" aria-describedby="conference-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h2 class="h3 text-center mb-4" id="conference-title">Nuove proposte e nuove sfide per la semplificazione e l'accessibilità</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center gy-2 mb-4">
+        <div class="col-12 col-sm-6 col-md-4 text-center">
+          <button itButton="outline-primary" (click)="downloadSchedule()">Scarica il programma</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-muted" aria-describedby="thursday-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="h5 mb-4 text-center" id="thursday-title">GIOVEDÌ 29 maggio</h2>
+        </div>
+      </div>
+
+      <app-conference-day-timeline [sessions]="conferencePlan.thursdaySessions"
+                                   (onInfoClick)="openAbstractModal($event)"></app-conference-day-timeline>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-describedby="friday-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="h5 mb-4 text-center" id="friday-title">Venerdì 30 maggio</h2>
+        </div>
+      </div>
+
+      <app-conference-day-timeline [sessions]="conferencePlan.fridaySessions"
+                                   (onInfoClick)="openAbstractModal($event)"></app-conference-day-timeline>
+    </div>
+  </div>
+</section>
