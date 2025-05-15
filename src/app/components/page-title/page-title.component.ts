@@ -13,9 +13,11 @@ import {NgOptimizedImage} from '@angular/common';
 export class PageTitleComponent {
 
   @Input() title: string;
+  @Input() subtitle: string;
 
   constructor() {
     this.title = "";
+    this.subtitle = "";
   }
 
 }

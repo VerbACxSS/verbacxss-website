@@ -27,9 +27,13 @@
               @for (child of item.children; track $index) {
                 <it-dropdown-item>
                   @if (child.path.startsWith('http')) {
-                    <a [href]="child.path" target="_blank" (click)="closeHeader()">{{child.name}}</a>
+                    <a [href]="child.path" target="_blank" (click)="closeHeader()">
+                      <span>{{child.name}}</span>
+                    </a>
                   } @else {
-                    <a [href]="child.path" (click)="closeHeader()">{{child.name}}</a>
+                    <a [href]="child.path" (click)="closeHeader()">
+                      <span>{{child.name}}</span>
+                    </a>
                   }
                 </it-dropdown-item>
               }

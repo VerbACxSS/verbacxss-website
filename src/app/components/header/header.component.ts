@@ -33,11 +33,11 @@ export class HeaderComponent {
       name: 'Convegni',
       children: [
         {
-          name: 'Convegno Unimol 2024',
+          name: 'Convegno 2024 / Unimol',
           path: 'conferences/unimol-conference-2024',
         },
         {
-          name: 'Convegno UniRoma3 2025',
+          name: 'Convegno 2025 / UniRoma3',
           path: 'conferences/uniroma3-conference-2025',
         }
       ]
