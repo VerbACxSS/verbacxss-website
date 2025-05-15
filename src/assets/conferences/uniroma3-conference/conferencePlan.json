@@ -23,7 +23,7 @@
     },
     {
       "icon": "clock",
-      "title": "17.00 – 17.30 Pausa caffè",
+      "title": "17.00 – 17.30<br>Pausa caffè",
       "speeches": []
     },
     {
@@ -57,273 +57,129 @@
           "hour": "10.30 – 11.00",
           "title": "L’elaborazione di verbi analitici vs. verbi sintetici in italiano: uno studio sui tempi di lettura in contesto frasale",
           "authors": "Maria De Martino, David Nicoletti, Francesca Pagliara, Maria Silvia Rati"
-        },
-        {
-          "hour": "11.00 – 11.30",
-          "title": "Pausa caffè"
-        }
-      ]
-    },
-    {
-      "icon": "warning-circle",
-      "title": "Problemi di comprensione e processi di semplificazione nelle varietà di lingua giuridica e burocratica",
-      "speeches": [
-        {
-          "hour": "10:45 (20 minuti)",
-          "title": "Perché è un \"dovere costituzionale farsi capire\"?",
-          "authors": "Emanuela Piemontese (Università di Roma \"La Sapienza\")",
-          "abstractParagraphs": [
-            "Il titolo del mio intervento riprende le parole conclusive di uno scritto di poche righe di Tullio De Mauro. Si tratta del suo breve intervento su SLAM, la newsletter dei progetti sulla semplificazione del linguaggio amministrativo della Funzione pubblica dell’ottobre 1997. Il breve testo di De Mauro era intitolato “Perché è necessario farsi capire”.",
-            "Nell’intervento si cercherà - anche attraverso esempi di testi di ampia destinazione e  scarsa comprensibilità - di delineare le principali cause dell’oscurità sia del linguaggio legislativo sia di quello amministrativo e le conseguenze sulla vita pratica delle persone e delle stesse amministrazioni.",
-            "La necessità di farsi capire, da principio generale della buona comunicazione (ed educazione), diventa infatti un “dovere costituzionale” per chiunque eserciti un ruolo e svolga un lavoro al servizio del pubblico. Sono diventati frequenti le sentenze in cui la Corte costituzionale si sofferma sull’oscurità dei testi legislativi e normativi. Proprio questi interventi rendono anche “giuridicamente formale e obbligante” la necessità di farsi capire. Necessità che, per la verità, riguarda, com’è noto, molti altri tipi di testo di interesse pubblico (formativi, informativi, di istruzione per l’uso, di servizio ai clienti ecc.)."
-          ]
-        },
-        {
-          "hour": "11:05 (20 minuti)",
-          "title": "L'inevitabile multimodalità dei testi istituzionali social: dalla modernizzazione della lingua alla modernizzazione della comunicazione",
-          "authors": "Filippo Pecorari (Universität Basel)",
-          "abstractParagraphs": [
-            "Le istituzioni dell’amministrazione pubblica sono presenti in maniera sistematica sui principali social media da almeno un decennio. Le piattaforme social promuovono una comunicazione multimodale, con un alto grado di integrazione tra i codici verbale, grafico-visuale e audio-visivo. Come segnalano i manuali di scrittura per i social media, la multimodalità non è semplicemente una possibilità espressiva, ma una componente inevitabile di una “scrittura social” efficace, dal momento che i contenuti visuali hanno un ruolo cruciale nel catturare l’attenzione del lettore. Essa si accompagna inoltre, tipicamente, all’uso di risorse esclusive dei testi digitali (hashtag, menzioni, emoji) e di strategie pragmatiche storicamente ignorate dal linguaggio amministrativo (es. allocuzioni ai lettori).",
-            "In questo contesto, ci si può chiedere se i social media stiano contribuendo a promuovere una maggiore vicinanza comunicativa tra istituzioni e cittadinanza. Per rispondere a questa domanda, si analizzerà un campione di testi pubblicati negli ultimi cinque anni su pagine social ufficiali di istituzioni pubbliche italiane (Ministeri, Città, Comuni) e svizzere di lingua italiana (Governo, Cantoni), con attenzione ai tratti linguistici tipici della scrittura amministrativa e ai tratti innovativi delle scritture digitali.",
-            "I risultati dell’analisi invitano ad estendere il paradigma della modernizzazione del linguaggio amministrativo (Cortelazzo 2021) nella direzione di una modernizzazione della comunicazione amministrativa. In questa prospettiva, la multimodalità e le strategie linguistiche innovative si rivelano, nel complesso, espedienti efficaci per una comunicazione più vicina alle abitudini del lettore, seppure con una certa variabilità a seconda dell’obiettivo comunicativo del testo (regolativo, informativo, promozionale ecc.)."
-          ],
-          "abstractBibliography": [
-            "Baù, Alessio/Bonini, Paola (2018), <i>Social media per la Pubblica Amministrazione. Guida per comunicare con cittadini ed elettori</i>, Milano, Apogeo.",
-            "Cortelazzo, Michele A. (2021), <i>Il linguaggio amministrativo. Principi e pratiche di modernizzazione</i>, Roma, Carocci.",
-            "Fiorentino, Giuliana (2021), “#iorestoacasa: comunicazione istituzionale social e multimodale”, in Bombi, Raffaella (a cura di), <i>La comunicazione istituzionale ai tempi della pandemia. Da sfida a opportunità</i>, Roma, Il Calamo, pp. 133-152.",
-            "Gualdo, Riccardo (2022), <i>Dialoghi tra parole e immagini. Il testo verbale e non verbale nella comunicazione specialistica</i>, Roma, Carocci.",
-            "Lovari, Alessandro/Ducci, Gea (2022), <i>Comunicazione pubblica. Istituzioni, pratiche, piattaforme</i>, Milano, Mondadori Università.",
-            "Mason, Giacomo/Zilio, Piero (2019), <i>La comunicazione digitale per la PA. Scrivere testi efficaci in siti, app e social network della pubblica amministrazione</i>, Santarcangelo di Romagna (RN), Maggioli.",
-            "Palermo, Massimo (2022), “Testualità digitale e multimodale: osservazioni sulla struttura dei reel”, in «Italiano LinguaDue», 14/2, pp. 560-573.",
-            "Pecorari, Filippo (2024a), “I cantoni svizzeri italofoni sui social network in tempo di pandemia: alcune osservazioni linguistiche e testuali”, in Ferrari, Angela et al. (a cura di), <i>La comunicazione istituzionale durante la pandemia. Il Ticino, con uno sguardo ai Grigioni</i>, Bellinzona, Casagrande, pp. 187-216.",
-            "Pecorari, Filippo (2024b), “#covid19: specificità della comunicazione digitale nei social network istituzionali ticinesi e grigionesi”, in Ferrari, Angela et al. (a cura di), <i>La comunicazione istituzionale durante la pandemia. Il Ticino, con uno sguardo ai Grigioni</i>, Bellinzona, Casagrande, pp. 217-239.",
-            "Pistolesi, Elena (2014), “Scritture digitali”, in Antonelli, Giuseppe/Motolese, Matteo/Tomasin, Lorenzo (a cura di), <i>Storia dell’italiano Scritto, vol. III: L’italiano dell’uso</i>, pp. 349-375.",
-            "Prada, Massimo (2021), <i>Non solo parole. Percorsi di didattica della scrittura. Dai testi funzionali a quelli multimodali</i>, Milano, FrancoAngeli.",
-            "Sergio, Giuseppe (2018), “Introduzione – L’italiano burocratico alla prova del web”, in Cattani, Paola/Sergio, Giuseppe (a cura di), <i>Comunicare cittadinanza nell’era digitale. Saggi sul linguaggio burocratico 2.0</i>, Milano, FrancoAngeli, pp. 9-29.",
-            "Vellutino, Daniela (2018), <i>L’italiano istituzionale per la comunicazione pubblica</i>, Bologna, Il Mulino."
-          ]
-        },
-        {
-          "hour": "11:25 (10 minuti)",
-          "title": "Discussione"
         }
       ]
     },
     {
       "icon": "clock",
-      "title": "11:40-12:00 Coffee break",
+      "title": "11.00 – 11.30<br>Pausa caffè",
       "speeches": []
     },
     {
       "icon": "warning-circle",
-      "title": "La semplificazione nei corpora",
+      "title": "Presiede: Anna Pompei",
       "speeches": [
         {
-          "hour": "12:00 (20 minuti)",
-          "title": "Umano vs AI: alcune considerazioni sulla semplificazione manuale e automatica del corpus ItaIst",
-          "authors": "Giuliana Fiorentino e Marco Russodivito (Università del Molise)",
-          "abstractParagraphs": [
-            "Il contributo mette a fuoco contrastivamente l’attività di semplificazione manuale applicata a un sottoinsieme del corpus ItaIst e la semplificazione automatica ottenuta dal prototipo del software ATS che stiamo utilizzando e mettendo a punto come prodotto applicativo risultante dal progetto PRIN VerbAcxSS (l’applicativo è denominato SEMPL-IT).",
-            "Il campione prescelto per questa analisi rappresenta una selezione dai testi di <i>ItaIst</i>, corpus costituito da 208 testi amministrativi provenienti da 8 regioni italiane (Basilicata, Calabria, Campania, Lazio, Lombardia, Molise, Toscana, Veneto) e riferiti a 3 aree tematiche: rifiuti, sanità, servizi pubblici. Per ciascuna area tematica sono state considerate 2 tipologie di testi (carte dei servizi e bandi di gara per la prima area tematica; atti generali di pianificazione e accreditamenti per la seconda area tematica; carte dei servizi e razionalizzazione delle partecipazioni pubbliche per la terza area tematica).",
-            "Il contributo discute in che modo sono tenute in conto le diverse istruzioni per la semplificazione che costituiscono la lista condivisa di parametri e operazioni che si è andata costituendo nella letteratura specialistica sul tema (cfr. Fiorentino, Ganfi in corso di stampa per una ricognizione sui parametri di semplificazione condivisi dalla maggior parte della letteratura italiana).",
-            "La prima parte del contributo discute le differenze tra operazioni di semplificazione e operazioni di sintesi realizzate con il supporto dell’intelligenza artificiale. Nella seconda parte si presentano i risultati del confronto tra le operazioni automatiche e quelle realizzate manualmente. Le conclusioni si soffermano criticamente sull’affidabilità delle operazioni automatiche."
-          ],
-          "abstractBibliography": [
-            "Giuliana Fiorentino, Vittorio Ganfi (in corso di stampa). Parametri per semplificare l’italiano istituzionale: revisione della letteratura. <i>Italiano LinguaDue</i>"
-          ]
+          "hour": "11.30 – 12.00",
+          "title": "Pisciotta, Verbi analitici e verbi sintetici: alternative e preferenze",
+          "authors": "Claudio Iacobini, Maria Pia De Rosa, Flavio"
         },
         {
-          "hour": "12:20 (20 minuti)",
-          "title": "SEMPL-IT: un modello di intelligenza artificiale per la semplificazione dell’italiano",
-          "authors": "Vittorio Ganfi e Marco Russodivito (Università del Molise)",
-          "abstractParagraphs": [
-            "In questo articolo, viene presentato un sistema di Intelligenza Artificiale, denominato SEMPL-IT e dedicato alla semplificazione del linguaggio amministrativo italiano. Come mostrato in una nutrita serie di lavori (tra gli altri, Piemontese 2023, Cortellazzo e Pellegrino 2003, Fiorentino e Ganfi in stampa), il linguaggio amministrativo è caratterizzato da strutture morfosintattiche complesse e dall’uso di un lessico poco trasparente. Tali caratteristiche possono rendere questa varietà piuttosto ostica per molti potenziali fruitori dei testi istituzionali, ostacolando la piena fruizione del contenuto testuale. Attraverso lo sviluppo di SEMPL-IT si è tentato di dare un contributo esplicito al problema della complessità dei testi amministrativi, creando uno strumento facile da usare che semplifichi automaticamente i testi.",
-            "Il modello è stato addestrato sulla base dei dati del corpus ItaIst, che colleziona testi di italiano amministrativo e consta di 915.759 token. Sfruttando tecniche avanzate di elaborazione del linguaggio naturale, sono state selezionate alcune versioni semplificate del corpus ItaIst, per le quali sono stati impiegati (a) procedure di semplificazione automatica che si sono avvalse del modello di intelligenza artificiale di OpenAI (ChatGPT) e (b) controlli manuali. Le due versioni del corpus, quella originale e quella semplificata, sono state impiegate per addestrare vari modelli di intelligenza artificiale che permettono il funzionamento di SEMPL-IT. Il software, infatti, impiegando questi modelli, se riceve come input dei testi complessi, effettua una semplificazione automatica, che accresce la leggibilità dei testi. L’efficacia delle operazioni di semplificazione viene misurata, in fine, attraverso varie metriche (ad esempio, gli indici di Gulpease o di Flesch)."
-          ],
-          "abstractBibliography": [
-            "Cortelazzo, M.A., Pellegrino F. 2003. <i>Guida alla scrittura istituzionale</i>. Roma-Bari: Laterza.",
-            "Fiorentino, G., Ganfi, V., in stampa, Parametri per semplificare l’italiano istituzionale: revisione della letteratura.",
-            "Piemontese, M. E. 2023. È ancora «fatica gittata osar d’ingentilire» la lingua delle nostre leggi e della nostra burocrazia? In: Piemontese (a cura di): 19-36."
-          ]
+          "hour": "12.00 – 12.30",
+          "title": "Espressione lessicale e grammaticale della modalità",
+          "authors": "Flavio Bauer"
         },
         {
-          "hour": "12:50 (20 minuti)",
-          "title": "Valutare la chiarezza e l’intelligenza artificiale",
-          "authors": "Mirko Tavosanis (Università di Pisa)",
-          "abstractParagraphs": [
-            "I sistemi di intelligenza artificiale basati su LLM sono oggi in grado di svolgere diverse attività, tra cui la generazione di testi e la loro riformulazione e semplificazione. Tali sistemi sono però anche in grado di fornire valutazioni articolate di testi preesistenti, anche per quanto riguarda la loro chiarezza. Alcune delle valutazioni fornite in questo modo sono evidentemente corrette e di alto profilo; altre, tuttavia, sono altrettanto evidentemente erronee. In effetti, non esiste ancora un consenso sul livello che le tecnologie attuali possono raggiungere all’interno dei normali percorsi comunicativi, e ciò rappresenta un vincolo importante per ogni riflessione sul loro impiego. Il contributo presenterà quindi, come prima cosa, esempi di attività sia di riformulazione sia di valutazione di testi burocratici eseguite da sistemi basati su LLM. Dal punto di vista pratico, i risultati incoraggeranno l’idea che tali sistemi possano avere una notevole utilità se usati all’interno di flussi di lavoro realistici e controllati, e non in isolamento. Il confronto tra i risultati della riformulazione e valutazione di testi da parte di esseri umani e quelli delle attività corrispondenti da parte di sistemi automatici permetterà poi di evidenziare la persistente difficoltà di valutare i testi secondo criteri espliciti e condivisi e, viceversa, l’utilità pratica di valutazioni meno formalizzate, in parte già oggi funzionalmente delegabili a sistemi automatici."
-          ]
-        },
-        {
-          "hour": "13:10 (15 minuti)",
-          "title": "Discussione"
+          "hour": "12.30 – 13.00",
+          "title": "La semplificazione delle perifrasi",
+          "authors": "Kristen Leone"
         }
       ]
     },
     {
       "icon": "clock",
-      "title": "13:30-15:30 Pausa pranzo",
+      "title": "11.30 – 15.00<br>Pausa pranzo",
       "speeches": []
     },
     {
       "icon": "warning-circle",
-      "title": "Psicolinguistica, annotazione e altri aspetti della semplificazione nei corpora",
+      "title": "Presiede: Daniela Vellutino",
       "speeches": [
         {
-          "hour": "15:30 (20 minuti)",
-          "title": "Annotazione di risorse linguistiche per la creazione di dataset open source per l'italiano istituzionale",
-          "authors": "Daniela Vellutino, Nicola Cirillo, David Nicoletti (Università di Salerno)",
-          "abstractParagraphs": [
-            "La comunicazione presenta un nuovo paradigma di annotazione manuale ed automatica per lo sviluppo di risorse linguistiche, nell’ambito del progetto PRIN 2020 \"VerbACxSS: su verbi analitici, complessità, verbi sintetici e semplificazione. Per l'accessibilità\" (Prot. 2020BJKB9M). Tale annotazione individua le informazioni sintattiche e terminologico-lessicali che costituiscono una possibile barriera alla comprensione dei testi istituzionali. Esse comprendono:<ul><li>Violazione dell’ordine standard soggetto-verbo-oggetto (es., “Alla comunicazione è allegata idonea documentazione.”)</li><li>Eccessiva ipotassi (es., “Un ripristino che riporta la prestazione al livello che aveva prima.”)</li><li>Soggetto nullo (es., “Può richiedere il rimborso delle somme versate.”)</li><li>Diatesi passiva (es., “Il regolamento è stato approvato.”)</li><li>Nominalizzazioni e costruzioni a verbo supporto (es., “Effettuare Il versamento a rate.”)</li><li>Tempi poco comuni (es., “Affinché questi possa analizzare le esigenze.”)</li><li>Doppia negazione (es., “I rifiuti non sono nemmeno tassabili.”)</li><li>Terminologia specialistica (es. “compostiera elettromeccanica”)</li></ul.",
-            "Il corpus di riferimento di questo studio è “ItaIst-DdAC_GRU” (<i>Italiano istituzionale per il Diritto di Accesso Civico del dominio terminologico Gestione Rifiuti Urbani</i>), costituito da testi istituzionali metadatati, scritti in lingua italiana per la comunicazione specialistica normativa e amministrativa e le attività d’informazione e comunicazione delle amministrazioni pubbliche per il diritto di accesso civico alle informazioni in materia."
-          ]
+          "hour": "15.00 – 16.00",
+          "title": "La semplificazione nella comunicazione previdenziale",
+          "authors": "Laura Montorselli"
         },
         {
-          "hour": "15.50 (20 minuti)",
-          "title": "Effetti sgraditi. La microtestualità in sofferenza tra semplificazione macrotestuale e semplificazione linguistica",
-          "authors": "Angela Ferrari e Giovanni Piantanida (Universität Basel)",
-          "abstractParagraphs": [
-            "Sono oramai decenni che saggi e vademecum offrono agli estensori dei testi giuridici e amministrativi in italiano indicazioni su come rendere i loro testi più chiari (cfr., tra gli altri, Cortelazzo 2021 e la <i>Guida alla redazione degli atti amministrativi. Regole e suggerimenti</i>, ITTIG-Accademia della Crusca 2011); e sono ormai decenni che tali indicazioni si concentrano da una parte sulla costruzione lessicale e morfosintattica delle frasi e dall’altra sulla macrostruttura dei testi. Tutto bene? No. Le cose non vanno bene dal punto di vista empirico, nel senso che tali indicazioni faticano a essere recepite e applicate, e non vanno bene neppure dal punto di vista teorico. È di quest’ultimo aspetto che vorrei occuparmi nello spazio che mi è riservato.",
-            "Le analisi mostrano che i testi prodotti applicando le indicazioni proposte non sono del tutto felici, che spesso sono sentiti come artificiali e faticosi, e che il livello responsabile di questi effetti indesiderati è la microtestualità, vale a dire i fenomeni concettuali e linguistici che riguardano la connessione di enunciati contigui (Ferrari <i>et al.</i> 2024). Ma quali sono questi corollari indesiderati, e soprattutto per quali ragioni si verificano? Il mio obiettivo è rispondere a queste domande sullo sfondo di un modello articolato della testualità scritta (Ferrari 2014; Ferrari <i>et al.</i> 2021; Ferrari <i>et al.</i> in stampa). Mostrerò in particolare come e perché la semplificazione della morfosintassi non è inerte riguardo ai vari aspetti dell’articolazione informativa degli enunciati, e che i suoi effetti possono collidere con le condizioni poste dalla progressione tematico-referenziale, logico-argomentativa e enunciativo-polifonica del testo: di qui la sofferenza della microtestualità indicata nel titolo dell’intervento.",
-            "Tra i fenomeni in gioco va menzionato per esempio l’ordine dei costituenti nella frase, i suoi effetti sull’articolazione dell’enunciato in topic-comment e le conseguenze di questa sulla progressione tematica del testo: una scrittura che mantiene caparbiamente l’ordine SVO presenta ostinatamente come topic il referente soggettuale anche nel caso di movimenti testuali che vorrebbero che tale referente fosse invece un focus. Si pensi ancora alla struttura delle frasi complesse, ai suoi effetti sulla gerarchizzazione dell’informazione e alle conseguenze di quest’ultima sulla progressione logico-argomentativa del testo: una scrittura che satura sistematicamente gli enunciati con frasi semplici si impedisce di indicare al lettore qual è tra le possibili la specifica informazione di cui si evocano le conseguenze, di cui si propone un’esemplificazione o una specificazione."
-          ],
-          "abstractBibliography": [
-            "Cortelazzo, Michele (2021), <i>Il linguaggio amministrativo. Principi e pratiche di modernizzazione</i>, Roma, Carocci.",
-            "Ferrari, Angela (2014), <i>Linguistica del testo</i>, Roma, Carocci.",
-            "Ferrari, Angela/Lala, Letizia/Zampese, Luciano (2021), <i>Le strutture del testo scritto. Teoria e esercizi</i>, Roma, Carocci.",
-            "Ferrari, Angela/Carlevaro, Annalisa/Evangelista, Daria/Lala, Letizia/Marengo, Terry/Pecorari, Filippo/Piantanida, Giovanni/Tonani, Giulia (2024, a cura di), <i>La comunicazione istituzionale durante la pandemia. Il Ticino, con uno sguardo ai Grigioni</i>, Bellinzona, Edizioni Casagrande.",
-            "Ferrari, Angela a cura di (in stampa), <i>Dizionario di linguistica del testo a uso delle scienze umane</i>, Roma, Carocci.",
-            "ITTIG/Accademia della Crusca (2011, a cura di), <i>Guida alla redazione degli atti amministrativi. Regole e suggerimenti</i>."
-          ]
+          "hour": "16.00 – 16.30",
+          "title": "Polisemia dei verbi leggeri e delle estensioni ed equivalenti sintetici nel corpus ItaIst",
+          "authors": "Anna Pompei"
         },
         {
-          "hour": "16:10 (20 minuti)",
-          "title": "Personalizzazione del linguaggio dell'istituzione pubblica: un confronto tra Italia e Svizzera",
-          "authors": "Letizia Lala (Université de Lausanne)",
-          "abstractParagraphs": [
-            "La politica ha sempre posseduto una dimensione di teatralità, basti pensare alle strategie persuasive dell’ars retorica, considerata nell’antichità classica uno strumento in grado di modificare i rapporti di forza all’interno della società e dunque imprescindibile per chi volesse conquistare il potere o mantenerlo.",
-            "Recentemente si è però assistito, in Italia e in molte delle democrazie occidentali, a un progressivo cambiamento con un incremento della spettacolarizzazione della comunicazione politica e della “leaderizzazione” del messaggio istituzionale: il leader canalizza l’attenzione su sé stesso, sulla sua immagine, divenendo il portatore attivo del progetto politico, ed il responsabile diretto della fiducia che gli è attribuita dai cittadini. Le caratteristiche personali del candidato divengono così prerogativa fondamentale della proposta politica e di conseguenza elemento dominante della comunicazione.",
-            "Il contributo si pone l’obiettivo di presentare i risultati di un’indagine su questo tipo di fenomeno, che ha messo a confronto la sua diffusione nel panorama italiano e in quello svizzero. Si mostrerà come, nonostante la prossimità geografica e, per molti aspetti, culturale, i due Paesi abbiano per questo ambito un atteggiamento profondamente diverso, in particolare per ciò che concerne la comunicazione delle principali cariche istituzionali."
-          ]
-        },
-        {
-          "hour": "16:30 (20 minuti)",
-          "title": "Dalla semplificazione alla leggibilità. Riflessioni linguistiche e cognitive sulla comprensione di testi istituzionali",
-          "authors": "Daniela Vellutino e Maria De Martino (Università di Salerno)",
-          "abstractParagraphs": [
-            "I testi istituzionali forniscono disposizioni, informazioni e istruzioni alla collettività. La lingua usata in questi testi è caratterizzata da specifici tratti in funzione delle ragioni pragmatiche della comunicazione. La capacità di comprendere il messaggio di un testo istituzionale, oltre che da proprietà come la lunghezza, l’argomento, il dominio di conoscenza terminologico, la coerenza, la coesione, la complessità lessicale e sintattica del testo, dipende anche dalle caratteristiche del destinatario, come il livello di alfabetizzazione, la condizione di bi- o multilinguismo, la presenza di eventuali disturbi cognitivi o dell’apprendimento. In ragione di ciò, per lo studio della semplificazione e dell’accessibilità linguistica dei testi istituzionali, oltre alle regole di semplificazione e alle formule di leggibilità per prevedere il livello di difficoltà di lettura e di comprensione del testo, è rilevante considerare variabili di tipo cognitivo. In tal senso, la lettura di un testo e la sua comprensione rappresentano un comportamento complesso che è sostenuto dall’interazione tra processi cognitivi distinti che implicano quantità e tipi di risorse cognitive diverse: la percezione visiva, l’attenzione, l’accesso lessicale-terminologico, la memoria di lavoro, l’elaborazione del significato.",
-            "Il contributo ha un duplice obiettivo: offrire un’analisi critica delle procedure e degli strumenti disponibili a supporto dei processi di semplificazione dell’italiano istituzionale e valutare le procedure che permettono di operazionalizzare la leggibilità di un testo in termini di impiego delle risorse cognitive richieste dalla lettura di alcuni tipi di testi istituzionali."
-          ]
-        },
-        {
-          "hour": "16:50 (20 minuti)",
-          "title": "Discussione"
+          "hour": "16.30 – 17.00",
+          "title": "Tecnicismi giuridici insostituibili: esempi dal corpus ItaIst",
+          "authors": "Maria Silvia Rati"
         }
       ]
     },
     {
-      "icon": "pa",
-      "title": "17.30 Visita al Museo sannitico e ai percorsi museali accessibili a cura di Ms. D'Ortensio",
+      "icon": "clock",
+      "title": "17.00 – 17.30<br>Pausa caffè",
       "speeches": []
     },
     {
+      "icon": "warning-circle",
+      "title": "Presiede: Daniela Vellutino",
+      "speeches": [
+        {
+          "hour": "17:30 – 18.00",
+          "title": "Sempl.it: software per la semplificazione automatica dei testi istituzionali",
+          "authors": "Giuliana Fiorentino, Marco Russodivito"
+        },
+        {
+          "hour": "18.00 – 18.30",
+          "title": "Primo monitoraggio sull’uso di Sempl.it in una pubblica amministrazione",
+          "authors": "Giuliana Fiorentino, Marco Russodivito"
+        }
+      ]
+    },
+    {
       "icon": "clock",
-      "title": "20:30 Cena",
+      "title": "20.00<br>Cena sociale",
       "speeches": []
     }
   ],
   "saturdaySessions": [
     {
       "icon": "warning-circle",
-      "title": "Aspetti della semplificazione, corpora e AI",
+      "title": "Presiede: Giuliana Fiorentino",
       "speeches": [
         {
-          "hour": "10:00 (20 minuti)",
-          "title": "Testi giuridico-amministrativi, lingua di genere e IA (IT-FR-TE)",
-          "authors": "Anna-Maria De Cesare (Technische Universität Dresden)",
-          "abstractParagraphs": [
-            "Questo contributo esplora le applicazioni “virtuose” dell’intelligenza artificiale nel campo della comunicazione amministrativa inclusiva. Sulla scia di recenti lavori dedicati alla semplificazione automatica dei testi burocratico-amministrativi tramite modelli linguistici di grandi dimensioni (dall’ingl. <i>large language models/LLM</i>; cfr. Nozza & Attanasio 2023), l’intento del presente studio consiste nel valutare la capacità di LLM come GPT-4 a redigere in modo automatico testi burocratico-amministrativi (più) inclusivi, che tengano conto della diversità di genere (donna-uomo, ma non solo) senza sacrificare la chiarezza del dettato. L’idea, più concretamente, è verificare se sia possibile allenare GPT-4 ad applicare le principali raccomandazioni presenti nelle linee guida per un uso non sessista/inclusivo di genere della lingua. Le domande alle quali vogliamo rispondere sono le seguenti: a) GPT-4 è in grado di produrre in modo convincente strutture che rendono visibile la presenza delle donne (per es. gli sdoppiamenti integrali e contratti: <i>i cittadini e le cittadine</i>; <i>cittadini/e</i>); b) GPT-4 sa produrre forme che neutralizzano il riferimento al genere delle persone (per es. tramite l’uso di sostantivi epiceni, come <i>persona</i>, o di genere comune, come <i>professionista</i>, espressioni collettive come “corpo docente” ecc.); infine, e soprattutto, c) GPT-4 è in grado di applicare la cosiddetta «soluzione creativa», vale a dire a scegliere – in funzione del genere testuale, della situazione comunicativa e del cotesto in cui occorrono – le forme linguistiche più adeguate? Le nostre risposte verteranno sui risultati ottenuti in un primo esperimento condotto su una tipologia scelta di testi e sfruttando varie tecniche di prompt engineering (Chen et al. 2023)."
-          ]
+          "hour": "9.30 – 10.30",
+          "title": "Semplificare per includere: l'italiano facile da leggere e da capire",
+          "authors": "Stefano Ondelli, Floriana Sciumbata"
         },
         {
-          "hour": "10:20 (20 minuti)",
-          "title": "Esperienze per l'accessibilità delle informazioni giuridico-amministrative",
-          "authors": "Francesco Romano (IGSG CNR)",
-          "abstractParagraphs": [
-            "L’Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche si occupa da sempre di facilitare l’accesso all’informazione giuridica attraverso varie attività di ricerca, ma anche di formazione. Tali attività hanno prodotto risultati non solo nella definizione di standard linguistici e informatici per il trattamento dei testi delle istituzioni o nella messa a punto di strumenti informatici per l’applicazione di tali standard, ma anche nella sperimentazione di metodi innovativi per favorire la comprensione dei contenuti comunicati dalla pubblica amministrazione.",
-            "Nel corso della presentazione saranno mostrati alcuni esempi delle attività svolte dalle ricercatrici e dai ricercatori CNR."
-          ]
-        },
-        {
-          "hour": "10:50 (20 minuti)",
-          "title": "Valutazione di tecniche di prompt engineering per la semplificazione dell'italiano burocratico e professionale",
-          "authors": "Giovanni Acerboni (L'ink Scrittura professionale), Walter Paci, Claudia Gigliotti, Lorenzo Gregori, Alessandro Panunzi (Università di Firenze), Maria Roberta Perugini (Studio Legale Perugini)",
-          "abstractParagraphs": [
-            "Il contributo riguarda l’analisi delle capacità di semplificazione linguistica della scrittura professionale di dominio amministrativo e legale da parte dei Large Language Models, e in particolare di ChatGPT. Sono stati valutati due fenomeni considerati fonte di inefficienza comunicativa (si veda la norma UNI 11482:2013 “Elementi strutturali e aspetti linguistici delle comunicazioni scritte delle organizzazioni”): l’eccessiva lunghezza dei periodi e la presenza di sintagmi nominali pesanti, con serie di modificatori preposizionali.",
-            "Le frasi di riferimento sono state estratte da un corpus di italiano professionale. Per la riscrittura automatica sono state utilizzate tre tecniche di prompt engineering: zero-shot learning, few-shot learning, Chain-of-Thought reasoning.",
-            "Il contributo si focalizza sulla valutazione a più livelli delle frasi generate da ChatGPT da parte di utenti non esperti. A livello di comprensione del testo, le domande hanno riguardato sia il contenuto direttamente presente nel testo, sia i possibili contenuti inferiti. Oltre a questo, sono state valutate le caratteristiche testuali delle varie riscritture.",
-            "Data la natura legale dei testi presi in considerazione, è stata inoltre prodotta una valutazione qualitativa da parte di esperti del settore."
-          ]
-        },
-        {
-          "hour": "11:10 (15 minuti)",
-          "title": "Discussione"
+          "hour": "10.30 – 11.00",
+          "title": "Risorse linguistiche per l’accessibilità. Accessibilità alle risorse linguistiche",
+          "authors": "Daniela Vellutino"
         }
       ]
     },
     {
       "icon": "clock",
-      "title": "Strategie analitiche e sintetiche rispetto alla complessità dei testi giuridici e burocratici:",
+      "title": "11.00 – 11.30<br>Pausa caffè",
+      "speeches": []
+    },
+    {
+      "icon": "warning-circle",
+      "title": "Presiede: Giuliana Fiorentino",
       "speeches": [
         {
-          "hour": "11:30 (20 minuti)",
-          "title": "Verbi analitici e sintetici a confronto",
-          "authors": "Valentina Benigni, Claudio Iacobini, Anna Pompei (Università Roma Tre)",
-          "abstractParagraphs": [
-            "Scopo dell’intervento è un confronto tra verbi analitici e sintetici all’interno del <i>corpus</i> ItaIst, a meri fini di classificazione.",
-            "Per verbi analitici intendiamo quelli che sul piano della linguistica teorica possono essere considerati predicati complessi, in cui la predicazione è distribuita su almeno due elementi lessicali (Alsina et al. 1997). Possiamo quindi considerare i verbi analitici come delle costruzioni in cui uno dei due elementi è costituito almeno da una forma verbale, spesso parzialmente desemantizzata, e da uno o più elementi lessicali ulteriori che contribuiscono alla predicazione. I verbi analitici presentano un certo grado di complessità strutturale, legata anzitutto alla condivisione della struttura argomentale. Annoveriamo tra i verbi analitici, in particolare, almeno a) i verbi supporto (comprese le estensioni), b) i verbi sintagmatici, ma anche c) alcune classi di verbi copulativi, come i cosiddetti effettivi (ad es. <i>rendere, ridurre, fare</i>), con valore causativo, e gli estimativi (ad es. <i>ritenere, considerare, stimare</i>), nonché d) le perifrasi che codificano i tratti TAM.",
-            "Per verbi sintetici intendiamo, invece, le forme monorematiche che convogliano un significato equivalente (ad es. <i>obiettare ~ fare un’obiezione / sollevare un’obiezione; disporre ~ avere a disposizione; acclarare / appurare ~ mettere in chiaro / rendere chiaro; procedere ~ andare avanti; coinvolgere ~ rendere partecipe</i>). I verbi sintetici possono presentare un certo grado di complessità a livello lessicale (ad es. <i>attenzionare o disdettare</i>).",
-            "Nella letteratura sulla semplificazione si trovano solo sporadici accenni all’opposizione verbi analitici vs. verbi sintetici nell’italiano istituzionale (cfr. Fioritto 1997: 54; Cortelazzo e Pellegrino 2003:121; Rovere 2005: 173-175), anche se esistono vari studi sulle nominalizzazioni, da cui alcuni tipi di strutture analitiche sono costituite."
-          ],
-          "abstractBibliography": [
-            "Alsina A., Bresnan J., Sells P. 1997 (eds.). <i>Complex Predicates</i>. Stanford: CSLI.",
-            "Benigni, V., Gebert, L. 2019. “Determinatezza nominale e aspetto verbale: il caso dei verbi supporto”. In Inkova, D.M. Olga (ed.), <i>Contrastes. Études de linguistique slavo-romane.</i> Alessandria: Edizioni dell&#39;Orso, 41-62.",
-            "Butt M. 2010. “The Light Verb jungle: Still hacking away”. In Amberber M., Baker B., Harvey M. (eds.), <i>Complex Predicates. Cross-linguistic Perspectives on Event Structure.</i>. Cambridge: Cambridge University Press, 48-78.",
-            "Cicalese A. 1999 “Le estensioni di verbo supporto. Uno studio introduttivo”. <i>Studi Italiani di Linguistica Teorica e Applicata.</i> 3: 447-487.",
-            "Cini M. 2008. <i>I verbi sintagmatici in italiano e nelle varietà dialettali.</i> Frankfurt am Main: Peter Lang.",
-            "Cortelazzo M., Pellegrino F. 2003. <i>Guida alla scrittura istituzionale</i>. Roma: Laterza.",
-            "Fiorentino G. 2019. “Complessità e semplicità come qualità di un sistema linguistico: codici artificiali e codici naturali a confronto”. In Burov I., Fiorentino G. (eds.). <i>Complexité des structures et des systèmes linguistiques : le cas des langues romanes.</i>, Sofia: Cu Romanistika. 37-57.",
-            "Fioritto A. 1997. <i>Manuale di stile.</i> Bologna: il Mulino.",
-            "Iacobini C. 2005. “I verbi italiani come base di derivazione prefissale”. In Grossmann M., Thornton A. M. (eds.). <i>La formazione delle parole.</i> Roma: Bulzoni. 289-307.",
-            "Lubello S. 2014. <i>Il linguaggio burocratico.</i> Roma: Carocci.",
-            "Pompei A., Mereu L.. Piunno V. 2023 (eds.). <i>Light Verb Constructions as Complex Verbs. Features, Typology and Function.</i> Berlin/Boston: Walter de Gruyter.",
-            "Rovere, G. 2005 <i>Capitoli di linguistica giuridica.</i> Alessandria: Edizioni dell’Orso.",
-            "Simone R. 1996. “Esistono verbi sintagmatici in italiano?”. <i>Cuadernos de Filología Italiana.</i> 3, 47-61.",
-            "Vellutino, D. 2018. <i>L’italiano istituzionale per la comunicazione pubblica.</i> Bologna: il Mulino."
-          ]
+          "hour": "11.30 – 12.00",
+          "title": "Access-ITA: un metodo di annotazione linguistica per data FAIR",
+          "authors": "Daniela Vellutino, Nicola Cirillo"
         },
         {
-          "hour": "11:50 (20 minuti)",
-          "title": "Il linguaggio giuridico di oggi tra connettivi pesanti e abuso di \"per\"",
-          "authors": "Maria Silvia Rati (Università per Stranieri \"Dante Alighieri\")"
-        },
-        {
-          "hour": "12:10 (20 minuti)",
-          "title": "Semplificare itinerari museali",
-          "authors": "Silvia D’Ortenzio (Università del Molise)",
-          "abstractParagraphs": [
-            "La semplicità e la chiarezza dei testi non sono una necessità solo della comunicazione amministrativa, ma, nell’ambito dell’accessibilità, diventano un’esigenza di tutti i testi che devono essere fruibili a tutta la comunità. Nell’ambito del progetto “MolisCTE” dedicato al patrimonio culturale, abbiamo affrontato la tematica relativa alla produzione di testi promozionali per la valorizzazione del patrimonio culturale in Molise modellati sui destinatari, partendo dalla necessità di semplificare i testi delle didascalie del Museo Sannitico di Campobasso. A tal proposito abbiamo redatto otto pannelli di sala seguendo, per quanto possibile, le indicazioni per la semplificazione dei testi amministrativi di Fioritto (1997) e Piemontese (1991) e analizzando i testi finali con l’aiuto di Corrige. Le difficoltà maggiori nella produzione di testi accessibili hanno riguardato soprattutto l’uso dei termini tecnici legati all’archeologia e i toponimi che spesso non sono stati riconosciuti da Corrige. Per aumentare la fruibilità dei testi abbiamo anche provveduto a adottare un approccio basato sulla multimodalità e sulla multimedialità. Nel primo caso abbiamo affiancato i testi con immagini che potessero aiutare la comprensione di alcuni termini sconosciuti, ad esempio la foto di un particolare tipo di anfora, e la localizzazione di alcune aree, affiancando al testo una cartina del Molise in cui sono indicate le località menzionate nel testo. Mentre, nel secondo caso, abbiamo dotato i pannelli di codici QR per poter accedere al testo orale del pannello e alla traduzione in Lingua dei segni italiana (LIS). La traduzione è stata effettuata dalla start up VEASYT."
-          ]
-        },
-        {
-          "hour": "12:30 (15 minuti)",
-          "title": "Discussione"
+          "hour": "12.00 – 13.00",
+          "title": "Tavola rotonda",
+           "authors": "COORDINA<br>Barbara Altomonte (Dirigente per il coordinamento amministrativo - Presidenza del consiglio dei ministri)<br><br>PARTECIPANO<br>Angela Ferrari (Universität Basel)<br>Nicola Mastidoro (Direttore R&D EuloTech)<br>Emanuela Piemontese (Sapienza Università di Roma)<br>Francesco Romano (IGSG CNR)<br>Stefano Telve (Università della Tuscia)"
         }
       ]
     },
     {
       "icon": "clock",
-      "title": "12.45 Chiusura dei lavori",
+      "title": "13.00<br>Chiusura dei lavori",
       "speeches": []
     }
   ],

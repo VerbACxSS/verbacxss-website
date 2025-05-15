@@ -7,7 +7,7 @@
             <div class="pin-icon">
               <it-icon [name]="getIcon(session.icon)"></it-icon>
             </div>
-            <div class="pin-text"><span>{{ session.title }}</span></div>
+            <div class="pin-text"><span [innerHTML]="session.title"></span></div>
           </div>
           @for (speech of session.speeches; track $index) {
             <div class="card-wrapper">
@@ -19,7 +19,7 @@
                 }
                 <h3 class="h3 card-title h5">{{ speech.title }}</h3>
                 @if (speech.authors) {
-                  <span class="card-signature">{{ speech.authors }}</span>
+                  <span class="card-signature" [innerHTML]="speech.authors"></span>
                 }
                 @if (speech.abstractParagraphs) {
                   <div>

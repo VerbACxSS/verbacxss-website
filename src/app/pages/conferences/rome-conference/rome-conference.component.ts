@@ -54,4 +54,16 @@ export class RomeConferenceComponent {
     window.open('assets/conferences/uniroma3-conference/programma_convegno.pdf', '_blank');
   }
 
+  public downloadPoster(): void {
+    window.open('assets/conferences/uniroma3-conference/locandina_convegno.pdf', '_blank');
+  }
+
+  public openTouristInformationLink(): void {
+    window.open('https://www.turismoroma.it', '_blank');
+  }
+
+  public downloadUsefulInformation(): void {
+    window.open('assets/conferences/uniroma3-conference/informazioni_utili.pdf', '_blank');
+  }
+
 }

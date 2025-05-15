@@ -13,6 +13,24 @@
         <div class="col-12 col-sm-6 col-md-4 text-center">
           <button itButton="outline-primary" (click)="downloadSchedule()">Scarica il programma</button>
         </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-center">
+          <button itButton="outline-primary" (click)="downloadPoster()">Scarica la locandina</button>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-center">
+          <button itButton="outline-primary" (click)="downloadSchedule()">Scarica il libretto degli abstract</button>
+        </div>
+      </div>
+
+      <div class="row justify-content-center gy-2 mb-4">
+        <div class="col-12 col-sm-6 col-md-4 text-center">
+          <button itButton="outline-secondary" (click)="downloadUsefulInformation()">Informazioni utili</button>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-center">
+          <button itButton="outline-secondary" (click)="openTouristInformationLink()">Informazioni turistiche</button>
+        </div>
       </div>
     </div>
   </div>
@@ -43,6 +61,21 @@
       </div>
 
       <app-conference-day-timeline [sessions]="conferencePlan.fridaySessions"
+                                   (onInfoClick)="openAbstractModal($event)"></app-conference-day-timeline>
+    </div>
+  </div>
+</section>
+
+<section class="section section-muted" aria-describedby="saturday-title">
+  <div class="section-content">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="h5 mb-4 text-center" id="saturday-title">SABATO 25 maggio - mattina</h2>
+        </div>
+      </div>
+
+      <app-conference-day-timeline [sessions]="conferencePlan.saturdaySessions"
                                    (onInfoClick)="openAbstractModal($event)"></app-conference-day-timeline>
     </div>
   </div>
