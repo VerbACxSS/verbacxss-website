@@ -1,4 +1,4 @@
-import {Component, ViewChild} from '@angular/core';
+import {AfterViewInit, Component, ViewChild} from '@angular/core';
 import {PageTitleComponent} from '../../../components/page-title/page-title.component';
 import {ItButtonDirective, ItModalComponent} from 'design-angular-kit';
 import {
@@ -20,7 +20,7 @@ import {ConferenceSpeech} from '../../../models/ConferenceSpeech';
     ConferenceDayTimelineComponent
   ]
 })
-export class RomeConferenceComponent {
+export class RomeConferenceComponent implements AfterViewInit {
   @ViewChild('abstractModal') abstractModal!: ItModalComponent;
 
   public readonly conferencePlan: ConferencePlan = conferencePlan;
@@ -66,4 +66,7 @@ export class RomeConferenceComponent {
     window.open('assets/conferences/uniroma3-conference/informazioni_utili.pdf', '_blank');
   }
 
+  public openTeamsLink(): void {
+    window.open('https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjQ1MDM3MjctZDZmMS00ZjI0LTllZTAtZTViYzhhYWZhNWY5%40thread.v2/0?context=%7b%22Tid%22%3a%22ffb4df68-f464-458c-a546-00fb3af66f6a%22%2c%22Oid%22%3a%227511281c-a056-4a91-bac6-f5089fe4aaad%22%7d', '_blank');
+  }
 }
