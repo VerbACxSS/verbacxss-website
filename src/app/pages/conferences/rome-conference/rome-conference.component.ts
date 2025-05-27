@@ -58,6 +58,10 @@ export class RomeConferenceComponent implements AfterViewInit {
     window.open('assets/conferences/uniroma3-conference/locandina_convegno.pdf', '_blank');
   }
 
+  public downloadAbstractBooklet(): void {
+    window.open('assets/conferences/uniroma3-conference/abstract_booklet.pdf', '_blank');
+  }
+
   public openTouristInformationLink(): void {
     window.open('https://www.turismoroma.it', '_blank');
   }
